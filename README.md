@@ -59,7 +59,7 @@ training <- pml_training_data[training_partition, ]
 testing <- pml_training_data[-training_partition, ]
 ```
 
-### check demestion 
+### check dimension 
 ```{r}
 dim(training)
 dim(testing)
